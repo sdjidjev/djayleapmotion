@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.awt.event.*;
 
+/* DJ with a wand in Djay using Leap Motion */
+
 class DjayListener extends Listener {
     final static int BOTTOM = 1, TOPLEFT = 2, TOPRIGHT = 3, NOTHING = 0;
     final static int SWIPELEFT = 1, SWIPERIGHT = 2, SCROLL = 3, SWIPEUP = 4, SCRATCH = 5;

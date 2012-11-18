@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.awt.event.*;
 
+/* DJ with your hands in Djay using Leap Motion */
+
 class DjayListener extends Listener {
     final static int NAH=0,LEFT=1, RIGHT=2, POSTHRESH=170, NEGTHRESH=-170, BASELINE=100;
     int delayAmount = 250; //shortest period between two of the same gesture
